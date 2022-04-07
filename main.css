@@ -1,3 +1,89 @@
 *{
+    margin: 10px;
+    padding: 0;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
     
 }
+
+html{
+
+    font-size: 100.5%;
+    background-image: url("./Recursos/Fondo.png");
+    display: flex;
+    flex-wrap: wrap;  
+    
+}
+
+.Base{
+    
+    
+    color: white;
+      
+    background-color: transparent;       
+    width: 100% ;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+h1, h2{
+
+    color: aquamarine;   
+    margin-bottom: 10px;   
+}
+
+.Arriba{
+
+    height: 10rem;
+    text-align: center;    
+
+}
+
+#Menu{
+
+    text-align: left;
+    color: white;
+}
+
+.Contacto{
+
+    text-align: center;
+    height: 35rem;    
+}
+
+#Informacion{
+
+    text-align: left;
+}
+
+.Capacidades{
+
+    justify-content: center;   
+    height: 50rem;
+    width: 100%;
+
+}
+
+#Uno, #Dos{
+
+    width: 50%;
+
+
+}
+
+
+
+.Contactame{
+
+    text-align: left;
+}
+
+
+
+
+
+
+
