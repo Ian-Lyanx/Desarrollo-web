@@ -9,18 +9,16 @@
 html{
 
     font-size: 100.5%;
-    background-image: url("./Recursos/Fondo.png");
-    display: flex;
-    flex-wrap: wrap;  
+    background-image: url("./Recursos/Fondo.png");         
     
 }
 
-.Base{
+.Base{    
     
-    
-    color: white;
-      
-    background-color: transparent;       
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap; 
+    color: white;           
     width: 100% ;
     
 }
@@ -59,26 +57,29 @@ h1, h2{
     text-align: left;
 }
 
-.Capacidades{
-
-    justify-content: center;   
-    height: 50rem;
+.Capacidades{    
+    
+    height: 60rem;
     width: 100%;
 
 }
 
 #Uno, #Dos{
 
-    width: 50%;
-
-
+    height: 30rem;
+    width: 50%;   
 }
 
+.Trabajos{
+
+    width: 100%;
+    height: 30rem;
+}
 
 
 .Contactame{
 
-    text-align: left;
+    align-content: left;
 }
 
 
