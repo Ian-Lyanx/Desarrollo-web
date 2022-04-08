@@ -7,9 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portafolio Santiago Salgado</title>
         <link rel="stylesheet" href="main.css">
-        <link rel="stylesheet" href="Tablet.css" media="screen and (min-width: 600px)">
-        <link rel="stylesheet" href="Phone.css" media="screen and (min-width: 800px)">
-
+        
     </head>
 
   <body>
@@ -20,7 +18,7 @@
 
             <h1>Portafolio Ingenieria En Diseño De Entretenimiento Digital</h1>
             
-            <div id="Menu">
+            <div class="Menu">
 
                 <h2>Menú</h2>
 
@@ -34,15 +32,12 @@
         
         <section class="Contacto">
 
-            <h1>Datos de contacto</h1>
-
-            <div id="Foto">                
+            <h1>Datos de contacto</h1>                      
                 
-                <img src="./Recursos/Perfil.jpg" alt="Chroman screenshot 1" width="15%">
-                       
-            </div>
+            <img src="./Recursos/Perfil.jpg" alt="Chroman screenshot 1" width="30%" height="40%">                      
+           
 
-            <div id="Informacion">
+            <div class="Informacion">
 
                 <h2>Nombre:</h2>
                 <p>Santiago Salgado Restrepo</p>
@@ -69,7 +64,7 @@
             
             <h1>Capacidades</h1>
 
-            <div id="Uno">
+            <div class="Uno">
                 <h2>Audio</h2>
                 <p>Poseo conocimientos basicos/intermedios en el diseño de sonido y recreación de ambientes.</p>
                 
@@ -81,17 +76,12 @@
                 <li>Unity 2d y 3d.</li>
                 <li>Vsual Studio</li>
                 <li>Unreal</li>            
-                <li>Blender</li>
-                                 
-
-                <h2>Animación:</h2>
-                <p>Poseo conocimientos basicos respecto a la animacion por key frames en:</p>
-                <li>2d.</li>
-                <li>3d</li>
+                <li>Blender</li>                               
+              
                 
             </div>   
             
-            <div id="Dos">
+            <div class="Dos">
 
                 <h2>Programación:</h2>
                 <p>Poseo conocimientos de programacion en C# y Phyton básico respecto a:</p>
@@ -106,59 +96,67 @@
                 <li>Japones - Básico</li>
                 <li>Portugues - Basico</li>
                 
+            </div>
+            
+
+            <div class="Tres">
+
+                <h2>Animación:</h2>
+                <p>Poseo conocimientos basicos respecto a la animacion por key frames en:</p>
+                <li>2d.</li>
+                <li>3d</li>
 
             </div>
             
         </section>
 
-        <section class="Trabajos">
-           
+        <section class="Trabajos">           
                 
-             <h1>Proyectos trabajados</h1>                        
+         <h1>Proyectos trabajados</h1>                        
 
-            <div class="Videos">
+            <div class="Video1">
 
                 <h2>Audio</h2>
-                <iframe width="560" height="315" src="https://youtube.com/embed/mFaTvMb5sGM" title="YouTube video player"
+                <iframe width="90%" height="90%" src="https://youtube.com/embed/mFaTvMb5sGM" title="YouTube video player"
                 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen></iframe>
-        
+                allowfullscreen></iframe>                                      
+
+            </div>   
+            
+            <div class="Video2">
+
                 <h2>Vfx</h2>
-                <iframe width="560" height="315" src="https://youtube.com/embed/uQTz_1ujDuI" title="YouTube video player"
+                <iframe width="90%" height="90%"  src="https://youtube.com/embed/uQTz_1ujDuI" title="YouTube video player"
                 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                 allowfullscreen></iframe>
-                <img src="./Recursos/Escudo.png" alt="Chroman screenshot 1" width="30%">
 
 
-            </div>     
-
+            </div>
+           
         </section>
        
         
         <section class="Contactame">
            
-                <h2>Contactame</h2>
+                <h1>Contactame</h1>
                 <form action="" autocomplete="on">
     
                     <label for="correo">
                         <span>Correo:</span>
-                        <input type="text" id="correo" placeholder="Correo electrónico" name="correo" required>
+                        <input type="text" id="correo" name="correo" required>
                     </label>
-                    <br>
-    
+                    <br>  
                     <label for="asunto">
                         <span>Asunto:</span>
                         <input type="text" id="asunto" name="asunto">
                     </label>
                     <br>
-    
                     <label for="mensaje">
                         <span>Mensaje a enviar:</span>
                         <br>
                         <textarea id="mensaje" name="mensaje" rows="10" cols="50"></textarea>
                     </label>
                     <br>
-    
                     <a  href="Datos de contacto.html"> Enviar</a>
                 </form>
             
